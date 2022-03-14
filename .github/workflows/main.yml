@@ -34,6 +34,9 @@ jobs:
 
         with:
             java-version: '11.x'
+      
+      - name: Install node.js packages 
+        run: npm install
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
